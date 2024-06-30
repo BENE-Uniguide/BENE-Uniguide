@@ -1,0 +1,82 @@
+/* Resetting default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Styling the main container */
+.part1 {
+  background: linear-gradient(135deg, #0a1733, #0a1f45);
+  color: #fbb415;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Styling the header */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 4em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  animation: fadeIn 2s;
+}
+
+.header .find {
+  font-size: 1.5em;
+  color: #ec1d60;
+  margin-bottom: 10px;
+}
+
+.header .that {
+  font-size: 2.5em;
+  color: #ec1d60;
+  animation: slideIn 2s;
+}
+
+/* Styling the countries container */
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.country {
+  text-align: center;
+  margin: 10px;
+}
+
+.country p {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #ec1d60;
+}
+
+.country img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 50%;
+  animation: fadeIn 2s;
+}
+
+.country img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+

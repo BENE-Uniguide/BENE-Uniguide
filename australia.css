@@ -1,0 +1,90 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    color: #0B0C0C;
+}
+
+.header-australia {
+    background-image: url('./australia-bg.jpg'); /* Add a relevant background image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 70px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+.header-australia h1{
+    margin: 0;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.uni-australia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.uni-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 300px;
+    margin: 20px;
+    text-align: center;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from links */
+}
+
+.uni-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.uni-card img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.uni-info {
+    padding: 20px;
+}
+
+.uni-name, .uni-desc {
+    transition: color 0.3s;
+}
+
+.uni-card:hover .uni-name,
+.uni-card:hover .uni-desc {
+    color: whitesmoke;
+}
+
+.uni-name {
+    font-size: 1.8em;
+    margin: 20px 0 10px;
+    font-weight: bold;
+    color: #0b0c0c;
+}
+
+.uni-desc {
+    font-size: 1em;
+    color: #0b0c0c;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    box-shadow: 0 -4px 8px rgba(0,0,0,0.1);
+}

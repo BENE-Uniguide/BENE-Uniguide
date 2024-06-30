@@ -1,0 +1,88 @@
+/* Reset some default browser styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #c40000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header .ranking {
+    font-weight: bold;
+}
+
+header .international-ranking {
+    font-style: italic;
+}
+
+header .established {
+    margin-top: 5px;
+}
+
+.main-content {
+    background-color: #fff;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #c40000;
+    border-bottom: 2px solid #c40000;
+    padding-bottom: 5px;
+}
+
+.main-content ul {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.main-content li {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}

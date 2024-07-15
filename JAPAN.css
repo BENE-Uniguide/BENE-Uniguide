@@ -11,7 +11,7 @@
     background-image: url('./japan-bg.jpg'); /* Add a relevant background image */
     background-size: cover;
     background-position: center;
-    color: white;
+    color: #444;
     text-align: center;
     padding: 70px 0;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
@@ -20,7 +20,6 @@
   .header-jap h1 {
     margin: 0;
     font-size: 3em;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   }
   
   .uni-jap {
@@ -57,6 +56,9 @@
   }
   
   .uni-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 20px;
   }
   

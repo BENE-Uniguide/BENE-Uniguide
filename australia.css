@@ -11,7 +11,7 @@ body {
     background-image: url('./australia-bg.jpg'); /* Add a relevant background image */
     background-size: cover;
     background-position: center;
-    color: white;
+    color: #444;
     text-align: center;
     padding: 70px 0;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
@@ -56,6 +56,9 @@ body {
 }
 
 .uni-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 20px;
 }
 
